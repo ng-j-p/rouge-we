@@ -2,9 +2,9 @@
 ROUGE summarization evaluation metric, enhanced with use of Word Embeddings
  as described in:
  
- Better Summarization Evaluation with Word Embeddings for ROUGE
-   Jun-Ping Ng and Viktoria Abrecht
-   in Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP), 2015
+ **Better Summarization Evaluation with Word Embeddings for ROUGE**  
+   *Jun-Ping Ng and Viktoria Abrecht*  
+   *in Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP), 2015*
 
 https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Sf5qT74AAAAJ&citation_for_view=Sf5qT74AAAAJ:D_sINldO8mEC
 
