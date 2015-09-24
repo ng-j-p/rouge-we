@@ -1,0 +1,20 @@
+<ROUGE_EVAL version="1.5.5">
+<EVAL ID="TEST1">
+<PEER-ROOT>
+sample-data/peers
+</PEER-ROOT>
+<MODEL-ROOT>
+sample-data/models
+</MODEL-ROOT>
+<INPUT-FORMAT TYPE="SPL">
+</INPUT-FORMAT>
+<PEERS>
+<P ID="1">TEST1.1</P>
+<P ID="2">TEST1.2</P>
+</PEERS>
+<MODELS>
+<M ID="A">TEST1.MODEL.1</M>
+<M ID="B">TEST1.MODEL.2</M>
+</MODELS>
+</EVAL>
+</ROUGE_EVAL>
