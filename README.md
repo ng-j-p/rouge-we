@@ -48,25 +48,21 @@ You can do this in a variety of ways, such as by using curl. The following examp
 
 > NOTE: First create the necessary config file. A sample has been pre-created.
 > Some sample data is found in rouge_1.5.5_data and the XML required is
-> given in sample-config.xml
+> given in sample-config.xml  
 >? ./ROUGE-WE-1.0.0.pl -x -n 2 -U -2 4 -e rouge_1.5.5_data/ -c 95 -a sample-config.xml
 
 Sample output:
 
----------------------------------------------  
-1 ROUGE-1 Average_R: 0.23145 (95%-conf.int. 0.23145 - 0.23145)  
-1 ROUGE-1 Average_P: 0.27279 (95%-conf.int. 0.27279 - 0.27279)  
-1 ROUGE-1 Average_F: 0.25043 (95%-conf.int. 0.25043 - 0.25043)  
----------------------------------------------  
-1 ROUGE-2 Average_R: 0.05782 (95%-conf.int. 0.05782 - 0.05782)  
-1 ROUGE-2 Average_P: 0.06894 (95%-conf.int. 0.06894 - 0.06894)   
-1 ROUGE-2 Average_F: 0.06289 (95%-conf.int. 0.06289 - 0.06289) 
----------------------------------------------  
-1 ROUGE-S4 Average_R: 0.03988 (95%-conf.int. 0.03988 - 0.03988)  
-1 ROUGE-S4 Average_P: 0.04894 (95%-conf.int. 0.04894 - 0.04894)  
-1 ROUGE-S4 Average_F: 0.04395 (95%-conf.int. 0.04395 - 0.04395)  
-......
-......
+> ---------------------------------------------  
+> 1 ROUGE-1 Average_R: 0.23145 (95%-conf.int. 0.23145 - 0.23145)  
+> 1 ROUGE-1 Average_P: 0.27279 (95%-conf.int. 0.27279 - 0.27279)  
+> 1 ROUGE-1 Average_F: 0.25043 (95%-conf.int. 0.25043 - 0.25043)  
+> ---------------------------------------------  
+> 1 ROUGE-2 Average_R: 0.05782 (95%-conf.int. 0.05782 - 0.05782)  
+> 1 ROUGE-2 Average_P: 0.06894 (95%-conf.int. 0.06894 - 0.06894)   
+> 1 ROUGE-2 Average_F: 0.06289 (95%-conf.int. 0.06289 - 0.06289) 
+> ......
+> ......
 
 ROADMAP
 ===========
