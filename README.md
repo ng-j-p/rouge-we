@@ -31,25 +31,25 @@ USAGE
 ==========
 
 1. Start up the word2vec query server:
-#> python word2vec_server.m.py -m <Path To pre-trained vectors>
+>? python word2vec_server.m.py -m <Path To pre-trained vectors>
 
 2. Test the word2vec query server by sending a HTTP Post request to:
 http://localhost:8888/word2vecdiff
 
 You can do this in a variety of ways, such as by using curl. The following examples work in OS X:
 
-#> curl -X POST --data "word1=king&word2=queen" http://localhost:8888/word2vecdiff
-{"status": 1, "word2vec_sim": 0.651095648143}
-#>
-#> curl -X POST --data "word1=raining heavily&word2=snowing badly" http://localhost:8888/word2vecdiff
-{"status": 1, "word2vec_sim": 0.293822419014}
+>? curl -X POST --data "word1=king&word2=queen" http://localhost:8888/word2vecdiff
+>{"status": 1, "word2vec_sim": 0.651095648143}
+>
+>? curl -X POST --data "word1=raining heavily&word2=snowing badly" http://localhost:8888/word2vecdiff
+>{"status": 1, "word2vec_sim": 0.293822419014}
 
 3. Run ROUGE-WE in the same way you would with ROUGE-1.5.5.pl
 
-#> ## First create the necessary config file. A sample has been pre-created.
-#> ## Some sample data is found in rouge_1.5.5_data and the XML required is
-#> ## given in sample-config.xml
-#> ./ROUGE-WE-1.0.0.pl -x -n 2 -U -2 4 -e rouge_1.5.5_data/ -c 95 -a sample-config.xml
+> ## First create the necessary config file. A sample has been pre-created.
+> ## Some sample data is found in rouge_1.5.5_data and the XML required is
+> ## given in sample-config.xml
+>? ./ROUGE-WE-1.0.0.pl -x -n 2 -U -2 4 -e rouge_1.5.5_data/ -c 95 -a sample-config.xml
 
 Sample output:
 
